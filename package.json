@@ -12,5 +12,13 @@
     "license": "ISC",
     "devDependencies": {
         "@11ty/eleventy": "^1.0.1"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jacob31/nwasst-new-2022.git"
+    },
+    "bugs": {
+        "url": "https://github.com/jacob31/nwasst-new-2022/issues"
+    },
+    "homepage": "https://github.com/jacob31/nwasst-new-2022#readme"
 }
