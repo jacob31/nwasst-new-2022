@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Head -->
+  {% include './head.html' %}
+  <!-- END Head -->
+  <style>
+    /** bootstrap 5.1.3 **/
+    {% include './css/bootstrap51.css'%}
+    /** END bootstrap 5.1.3 **/
+    /** Custom CSS **/
+    {% include './css/custom.css'%}
+    /** END Custom CSS **/
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="container d-flex justify-content-center">{% include './header.html' %}</header>
+  <!-- End Header -->
+  <!-- Main Content -->
+  <main class="container pt-5">{{ content | safe }}</main>
+  <!-- END Main Content -->
+  <!-- Footer -->
+  <footer class="container">{% include './footer.html' %}</footer>
+  <!-- END Footer -->
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>{% include './js/customJavascript.html' %}</script>
+  <!-- END Scripts -->
+</body>
+</html>
