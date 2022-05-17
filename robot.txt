@@ -1,4 +1,0 @@
-Sitemap: #url to sitemap 
-
-User-agent: *
-Disallow: 
